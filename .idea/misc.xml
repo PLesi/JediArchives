@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/drawable/gombik.xml" value="0.343" />
+        <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/drawable/help.xml" value="0.343" />
+        <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/layout/activity_help.xml" value="0.3484375" />
+        <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/layout/activity_main.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
