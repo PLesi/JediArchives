@@ -6,8 +6,10 @@
         <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/drawable/gombik.xml" value="0.343" />
         <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/drawable/help.xml" value="0.343" />
         <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/layout/activity_help.xml" value="0.3484375" />
-        <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/layout/activity_library.xml" value="0.358695652173913" />
         <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_help.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_library.xml" value="0.11626139817629179" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15520833333333334" />
       </map>
     </option>
   </component>
