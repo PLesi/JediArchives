@@ -67,6 +67,8 @@
         android:layout_marginBottom="32dp"
         android:background="@drawable/gombik"
         android:text="H"
+        android:clickable="true"
+        android:focusable="true"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
