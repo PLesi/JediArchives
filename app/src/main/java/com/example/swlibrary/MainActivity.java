@@ -10,11 +10,20 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
 Button help;
+Button libraryEnter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        libraryEnter = findViewById(R.id.MainButton);
+        libraryEnter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,Library.class));
+
+            }
+        });
        help = findViewById(R.id.Help);
        help.setOnClickListener(new View.OnClickListener() {
             @Override
