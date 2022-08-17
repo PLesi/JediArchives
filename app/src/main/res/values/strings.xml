@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SwLiBRARY</string>
+    <string name="planets">Planets</string>
+    <string name="technology">Technology</string>
+    <string name="species">Species</string>
+    <string name="personalities">personalities</string>
+
 </resources>

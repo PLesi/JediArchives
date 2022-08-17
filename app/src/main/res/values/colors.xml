@@ -10,5 +10,6 @@
     <color name="yellow">#e0cb41</color>
     <color name="blue2">#2196F3</color>
     <color name="blue">#36A9F6</color>
+    <color name="buttonsMenu">#003355</color>
     <color name="backgroundcolor">#0c0036</color>
 </resources>
