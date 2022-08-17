@@ -12,4 +12,6 @@
     <color name="blue">#36A9F6</color>
     <color name="buttonsMenu">#003355</color>
     <color name="backgroundcolor">#0c0036</color>
+
+    <color name="grey">#A5A5A5</color>
 </resources>
