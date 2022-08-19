@@ -52,6 +52,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
+            android:id="@+id/planetsBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -78,6 +79,7 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/technoBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -90,6 +92,7 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/personBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
