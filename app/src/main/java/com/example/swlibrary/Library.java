@@ -20,12 +20,17 @@ public class Library extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.Cross);
 
         Button personBtn = findViewById(R.id.personBtn);
+        Button Btn = findViewById(R.id.Btn);
+        Button Btn = findViewById(R.id.personBtn);
+        Button Btn = findViewById(R.id.personBtn);
+
         personBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Library.this, Personalities.class));
             }
         });
+
 
         Picasso.with(this)
                 .load("https://i.imgflip.com/2gro1p.jpg")
