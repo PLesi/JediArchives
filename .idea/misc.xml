@@ -3,18 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/drawable/button_menu.xml" value="0.2235" />
         <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/drawable/gombik.xml" value="0.343" />
         <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/drawable/help.xml" value="0.343" />
+        <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/drawable/serach_radius.xml" value="0.2235" />
         <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/layout/activity_help.xml" value="0.3484375" />
+        <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/layout/activity_library.xml" value="0.3625" />
         <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="app/src/main/res/drawable/button_menu.xml" value="0.229" />
-        <entry key="app/src/main/res/drawable/read.xml" value="0.229" />
+        <entry key="..\:/Users/timot/AndroidStudioProjects/JediArchives/app/src/main/res/layout/activity_personalities.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_help.xml" value="0.3088768115942029" />
-        <entry key="app/src/main/res/layout/activity_library.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1290578206380208" />
-        <entry key="app/src/main/res/layout/activity_personalities.xml" value="0.29583333333333334" />
-        <entry key="app/src/main/res/layout/activity_spieces.xml" value="0.3088768115942029" />
-        <entry key="app/src/main/res/layout/activity_technology.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_library.xml" value="0.11626139817629179" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15520833333333334" />
       </map>
     </option>
   </component>
