@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "754906695257",
+    "project_id": "starwars-ced88",
+    "storage_bucket": "starwars-ced88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754906695257:android:2f4b5262a69092a2ca1348",
+        "android_client_info": {
+          "package_name": "com.example.swlibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754906695257-td0fjmkrgoen67gsnveg7danr8nng8k0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLlnJmB--mLFwZJUyP3BdtoQxeHsxfwU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754906695257-td0fjmkrgoen67gsnveg7danr8nng8k0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
