@@ -9,14 +9,15 @@ import android.widget.Button;
 
 public class Spieces extends AppCompatActivity {
 
-    Button planetsBtn = findViewById(R.id.planetsBtn);
-    Button technoBtn = findViewById(R.id.technoBtn);
-    Button personBtn = findViewById(R.id.personBtn);
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spieces);
+
+        Button planetsBtn = findViewById(R.id.planetsBtn);
+        Button technoBtn = findViewById(R.id.technoBtn);
+        Button personBtn = findViewById(R.id.personBtn);
+
 
         planetsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +37,7 @@ public class Spieces extends AppCompatActivity {
                 startActivity(new Intent(Spieces.this,Personalities.class));
             }
         });
+
 
     }
 }

@@ -20,14 +20,26 @@ public class Library extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.Cross);
 
         Button personBtn = findViewById(R.id.personBtn);
-        Button Btn = findViewById(R.id.Btn);
-        Button Btn = findViewById(R.id.personBtn);
-        Button Btn = findViewById(R.id.personBtn);
+        Button technoBtn = findViewById(R.id.technoBtn);
+        Button speciesBtn = findViewById(R.id.speciesBtn);
+
 
         personBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Library.this, Personalities.class));
+            }
+        });
+        technoBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Library.this, Technology.class));
+            }
+        });
+        speciesBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Library.this, Spieces.class));
             }
         });
 
