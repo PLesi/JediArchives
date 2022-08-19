@@ -22,19 +22,34 @@ public class Personalities extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Personalities.this, Library.class));
+                overridePendingTransition(R.anim.slide_in_left,
+                        R.anim.slide_out_right);
             }
         });
         technoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Personalities.this, Technology.class));
+                overridePendingTransition(R.anim.slide_in_left,
+                        R.anim.slide_out_right);
             }
         });
         speciesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Personalities.this, Spieces.class));
+                overridePendingTransition(R.anim.slide_in_left,
+                        R.anim.slide_out_right);
+
             }
         });
+    }
+    @Override
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        startActivity(new Intent(Personalities.this,MainActivity.class));
+        overridePendingTransition(R.anim.slide_in_left,
+                R.anim.slide_out_right);
     }
 }
