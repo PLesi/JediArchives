@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SwLiBRARY">
         <activity
+            android:name=".Informations"
+            android:exported="false" />
+        <activity
             android:name=".Personalities"
             android:exported="false" />
         <activity
