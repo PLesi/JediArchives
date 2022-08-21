@@ -16,12 +16,12 @@
             android:text="TextView"
             android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintStart_toEndOf="@+id/buttonBack"
             app:layout_constraintTop_toTopOf="parent"
             android:background="@drawable/top_text_view"/>
 
     <ImageButton
-        android:id="@+id/button"
+        android:id="@+id/buttonBack"
         android:layout_width="64dp"
         android:layout_height="53dp"
         android:background="@drawable/back_btn"
