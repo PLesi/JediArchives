@@ -1,16 +1,23 @@
 package com.example.swlibrary;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QuerySnapshot;
+
 public class Technology extends AppCompatActivity {
 
-
-
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,11 +55,15 @@ public class Technology extends AppCompatActivity {
     }
 
     @Override
-    public void onBackPressed()
-    {
+    public void onBackPressed() {
         super.onBackPressed();
-        startActivity(new Intent(Technology.this,MainActivity.class));
+        startActivity(new Intent(Technology.this, MainActivity.class));
         overridePendingTransition(R.anim.slide_in_left,
                 R.anim.slide_out_right);
     }
+
+    db.collection("cities").get().then(function(querySnapshot) {
+        console.log(querySnapshot.size);
+    });
+
 }

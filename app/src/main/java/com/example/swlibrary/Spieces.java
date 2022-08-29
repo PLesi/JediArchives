@@ -6,8 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
+import android.widget.ImageView;
 import com.squareup.picasso.Picasso;
+import android.webkit.WebView;
 
 public class Spieces extends AppCompatActivity {
 
@@ -17,6 +18,8 @@ public class Spieces extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spieces);
+
+        ImageView imageView = findViewById(R.id.Cross);
 
         Button planetsBtn = findViewById(R.id.planetsBtn);
         Button technoBtn = findViewById(R.id.technoBtn);
@@ -47,6 +50,11 @@ public class Spieces extends AppCompatActivity {
                         R.anim.slide_out_left);
             }
         });
+
+
+        Picasso.with(this)
+                .load("https://media.forgecdn.net/avatars/107/154/636364134932167010.jpeg")
+                .into(imageView);
 
 
     }
